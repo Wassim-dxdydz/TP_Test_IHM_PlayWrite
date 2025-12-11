@@ -10,7 +10,7 @@ Ce projet vise à :
 - Mettre en place des **tests automatisés** avec Playwright pour une application web de gestion de tâches.
 - Produire un **modèle de tâches** (ConcurTaskTrees) décrivant les principales interactions utilisateur.
 
-## 🧭 3. Modèle de tâches (CTT)
+## 🧭 2. Modèle de tâches (CTT)
 
 Le fichier `ModèleDeTâches.kxml` décrit les tâches principales d’un utilisateur de l’application :
 
@@ -22,7 +22,7 @@ Le fichier `ModèleDeTâches.kxml` décrit les tâches principales d’un utilis
 
  Le modèle est fourni au format `.kxml`.
 
- ## 🧪 4. Tests Playwright
+ ## 🧪 3. Tests Playwright
 
 Les tests couvrent :
 
@@ -41,3 +41,4 @@ npm install
 npx playwright test
 
 npx playwright show-report
+
